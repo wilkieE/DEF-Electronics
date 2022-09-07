@@ -1,26 +1,23 @@
-import React from 'react';
-import Head from 'next/head';
-import Navbar from './Navbar';
-import Foooter from './Footer';
+import React from "react";
+import Head from "next/head";
+import Navbar from "./Navbar";
+import Foooter from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className='layout'>
+    <div className="layout">
       <Head>
-        <title>Ejiroghene's First Store</title>
+        <title>OPPA</title>
       </Head>
       <header>
-        <Navbar/>
+        <Navbar />
       </header>
-      <main className='main-container'>
-        {children}
-      </main>
+      <main className="main-container">{children}</main>
       <footer>
-        <Foooter/>
+        <Foooter />
       </footer>
-
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
