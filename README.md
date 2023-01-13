@@ -4,8 +4,6 @@ This is an ecommerce webapp built with Next.js and React using Sanity as the bac
 
 
 ![Ecommerce Application](https://user-images.githubusercontent.com/48595932/212309842-f980c92e-a755-44b9-b6ec-6fe90029f58f.png)
-```
-```
 
 ## Getting Started
 
