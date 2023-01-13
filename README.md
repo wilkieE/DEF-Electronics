@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce Webapp
+
+This is an ecommerce webapp built with Next.js and React using Sanity as the backend Content management system. 
+
+
+![Ecommerce Application](https://user-images.githubusercontent.com/48595932/212309842-f980c92e-a755-44b9-b6ec-6fe90029f58f.png)
+```
+```
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository to your local machine.
+2. Run `npm install` to install all dependencies.
+3. Get secret and publishable API keys from Stripe (You will have to create an account if you dont have one already). Here are the steps to get your Stripe API keys https://stripe.com/docs/keys
+4. Get a Public Sanity token. You will need to set up an account at Sanity.io to be able to run a backend for this project
+5. Create a .env file in the root folder of the project and add the `STRIPE_SECRET_KEY` `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` and `NEXT_PUBLIC_SANITY_TOKEN`API keys and save the file.
+6. Run `npm run dev`in your terminal to start the development server.
+7. Follow the link in your terminal to view the app in your browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Features
+- Browse and purchase items
+- Shopping cart feature
+- Checkout and Stripe payment integration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Built With
+- Next.js - Web Framework
+- React - JavaScript library for building user interfaces
+- Sanity - Content Management System
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Contributions
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
