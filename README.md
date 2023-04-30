@@ -1,4 +1,4 @@
-# Ecommerce Webapp
+# DEF Electronics
 
 This is an ecommerce webapp built with Next.js and React using Sanity as the backend Content management system. 
 
